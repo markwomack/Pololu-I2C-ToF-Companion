@@ -24,3 +24,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Ignore the backups directory created by KiCAD
+I2C-ToF-Companion-backups/
