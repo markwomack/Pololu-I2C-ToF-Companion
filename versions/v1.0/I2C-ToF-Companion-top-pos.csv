@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+IC1,LTC4316CMS#PBF,SOP50P490X110-10N,148.59,-70.866,0,top
+J1,Conn_01x04,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,157.702,-75.438,90,top
+J2,Conn_01x04,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,139.446,-75.43,-90,top

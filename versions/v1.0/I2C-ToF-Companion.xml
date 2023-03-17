@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/mwomack/development/PololuToFI2CAddressCompanion/I2C-ToF-Companion.kicad_sch</source>
+    <date>Thu 16 Mar 2023 09:37:58 PM EDT</date>
+    <tool>Eeschema 7.0.1-3b83917a11~172~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>I2C-ToF-Companion.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>LTC4316CMS#PBF</value>
+      <footprint>LTC4316:SOP50P490X110-10N</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/4316fa.pdf</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="LCSC">C688145</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">LTC4316CMS#PBF</field>
+        <field name="Mouser Part Number">584-LTC4316CMS#PBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4316CMSPBF?qs=oahfZPh6IAIDwatVP26t6Q%3D%3D</field>
+      </fields>
+      <libsource lib="LTC4316CMS#PBF" part="LTC4316CMS#PBF" description="Interface - Specialized 1x I2C/SMBus Address Translator"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="584-LTC4316CMS#PBF"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4316CMSPBF?qs=oahfZPh6IAIDwatVP26t6Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="LTC4316CMS#PBF"/>
+      <property name="LCSC" value="C688145"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-ToF-Companion.kicad_sch"/>
+      <property name="ki_description" value="Interface - Specialized 1x I2C/SMBus Address Translator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b697534-ac2e-4427-bf21-77d0a8af9d81</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C160404</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C160404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-ToF-Companion.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3c029db-7d86-40d4-b20a-9f443e28fb9a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C160404</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C160404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="I2C-ToF-Companion.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c54d33d-188f-443e-a193-52126501c51e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTC4316CMS#PBF" part="LTC4316CMS#PBF">
+      <description>Interface - Specialized 1x I2C/SMBus Address Translator</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/4316fa.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LTC4316CMS#PBF</field>
+        <field name="Footprint">SOP50P490X110-10N</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/4316fa.pdf</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">584-LTC4316CMS#PBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC4316CMSPBF?qs=oahfZPh6IAIDwatVP26t6Q%3D%3D</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">LTC4316CMS#PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="XORH" type="passive"/>
+        <pin num="3" name="XORL" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+        <pin num="5" name="ENABLE" type="passive"/>
+        <pin num="6" name="READY" type="passive"/>
+        <pin num="7" name="SDAIN" type="passive"/>
+        <pin num="8" name="SDAOUT" type="passive"/>
+        <pin num="9" name="SCLOUT" type="passive"/>
+        <pin num="10" name="SCLIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pololu" part="VL53L0X">
+      <fields>
+        <field name="Reference">B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_out"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SDA" type="passive"/>
+        <pin num="5" name="SCL" type="passive"/>
+        <pin num="6" name="XSHUT" type="passive"/>
+        <pin num="7" name="GPIO1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="LTC4316CMS#PBF">
+      <uri>/home/mwomack/Downloads/LTC4316CMS#PBF/KiCad/LTC4316CMS#PBF.kicad_sym</uri>
+    </library>
+    <library logical="Pololu">
+      <uri>/home/mwomack/Kicad/Pololu.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3.3v">
+      <node ref="IC1" pin="4" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="ENABLE" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/GND">
+      <node ref="IC1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/SCL">
+      <node ref="IC1" pin="10" pinfunction="SCLIN" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="4" name="/SDA">
+      <node ref="IC1" pin="7" pinfunction="SDAIN" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(B1-SCL)">
+      <node ref="IC1" pin="9" pinfunction="SCLOUT" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(B1-SDA)">
+      <node ref="IC1" pin="8" pinfunction="SDAOUT" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(IC1-XORH)">
+      <node ref="IC1" pin="2" pinfunction="XORH" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(IC1-XORL)">
+      <node ref="IC1" pin="3" pinfunction="XORL" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(IC1-READY-Pad6)">
+      <node ref="IC1" pin="6" pinfunction="READY" pintype="passive"/>
+    </net>
+  </nets>
+</export>
