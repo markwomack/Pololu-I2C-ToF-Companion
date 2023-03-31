@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/mwomack/development/PololuToFI2CAddressCompanion/I2C-ToF-Companion.kicad_sch</source>
-    <date>Thu 16 Mar 2023 09:37:58 PM EDT</date>
+    <source>/home/mwomack/development/Pololu-I2C-ToF-Companion/I2C-ToF-Companion.kicad_sch</source>
+    <date>Thu 30 Mar 2023 07:27:45 PM EDT</date>
     <tool>Eeschema 7.0.1-3b83917a11~172~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -51,12 +51,12 @@
     </comp>
     <comp ref="J1">
       <value>Conn_01x04</value>
-      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
       <fields>
-        <field name="LCSC">C160404</field>
+        <field name="LCSC">C160390</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C160404"/>
+      <property name="LCSC" value="C160390"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2C-ToF-Companion.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -66,12 +66,12 @@
     </comp>
     <comp ref="J2">
       <value>Conn_01x04</value>
-      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
       <fields>
-        <field name="LCSC">C160404</field>
+        <field name="LCSC">C160390</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C160404"/>
+      <property name="LCSC" value="C160390"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="I2C-ToF-Companion.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
